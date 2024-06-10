@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+[class^="col-"] {
+    padding: 0;
+}
+
+h1 {
+    font-size: clamp(20px, 1.63vw, 26px);
+    line-height: clamp(28px, 2vw, 32px);
+    font-weight: 600;
+}
+
+h2 {
+    font-size: clamp(18px, 1.47vw, 22px);
+    line-height: clamp(20px, 1.81vw, 27px);
+    font-weight: 600;
+}
+
+/* Header*/
+header {
+    box-shadow: 0px 4px 4px 5px #0000000A;
+}
+
+
+header p {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #838383;
+}
+
+.data-set-section h2 {
+    margin: 0;
+}
+
+/* Data-set section */
+.data-set-section p {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    margin: 0;
+    padding-left: 5px;
+}
+
+/* Form section */
+.form-section .select-container img {
+    width: 19px;
+    padding-left: 5px;
+}
+
+.form-section .select-container label {
+    font-size: 15px;
+    font-weight: 400;
+    color: #2D3748;
+    padding-bottom: 10px;
+}
+
+.form-section .select-container select {
+    font-size: 13px;
+    font-weight: 400;
+    color: #454545
+}
+
+.form-section .select-buttons {
+    gap: 10px;
+}
+
+.form-section .select-buttons button {
+    gap: 7px;
+}
+
+.form-section .select-buttons img {
+    width: 12px;
+}
+
+.form-section .select-buttons button:last-child {
+    background: none;
+    border-color: rgb(13, 110, 253);
+    color: rgb(13, 110, 253);
+}
+
+/* Charts section */
+.chart-section button {
+    font-size: clamp(18px, 1.47vw, 22px);
+    line-height: clamp(20px, 1.81vw, 27px);
+    font-weight: 600;
+}
+
+/* Table section*/
+.table-section h2 {
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 600;
+}
+
+.table-section th {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.table-section tbody tr:last-child {
+    border-color: transparent;
+}
+
+.table-section td {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.table-section th,
+.table td {
+    white-space: nowrap;
+}
+
+@media (max-width: 500px) {
+    .navbar .container-fluid.justify-content-start {
+        flex-direction: column;
+        text-align: center;
+        align-items: center !important;
+    }
+}
