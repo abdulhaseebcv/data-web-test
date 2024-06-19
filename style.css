@@ -36,11 +36,28 @@ header p {
     color: #838383;
 }
 
+.range-bar-container {
+    width: 70%;
+    height: 18px;
+    background: #f6f6f8;
+    border-radius: 10px;
+    position: relative;
+}
+
+.range-bar {
+   height: 100%;
+   width: 70%;
+   background: #1fbe8d;
+   border-radius: 10px;
+
+}
+
+/* Data-set section */
+
 .data-set-section h2 {
     margin: 0;
 }
 
-/* Data-set section */
 .data-set-section p {
     font-size: 20px;
     line-height: 25px;
